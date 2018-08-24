@@ -1,0 +1,35 @@
+/* PHASE 5: Cats */
+.content-header {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  background: url('../images/cats.jpg');
+  background-size: cover;
+  border-bottom: 1px solid #ccc
+}
+
+.content-header h1 {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  left: 240px;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  text-shadow: #000 0 0 10px;
+  font-weight: 300;
+}
+
+.content-header button {
+  position: absolute;
+  font-weight: bold;
+  bottom: 20px;
+  color: black;
+  right: 20px;
+  background-color: white;
+  border: black 1px solid;
+  height: auto;
+  width: auto;
+  padding: 10px 20px;
+  border-radius: 5px 5px 5px 5px;
+
+}
